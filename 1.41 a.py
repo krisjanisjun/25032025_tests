@@ -1,0 +1,13 @@
+from math import*
+x=float (input('Kāda būs x vērtība? -'))
+y= (sqrt(x))
+print ("kvadrātsakne no ",x," vērtības ir y= %.2f" % y)
+x1=float(input("kāda būs x vērtība? -  " ))
+y1=(abs(x1))
+print("skaitļa",x1, "absolūntā vērtība ir %.0f "%y1)
+x2=float(input("x - "))
+y2=(sqrt(abs(x2)))
+print("y= %.0f" %y2)
+x3=float(input("ievadiet xvētību "))
+y3=sqrt(x**2+1)
+print("kvadrātsakne no x kvadrāta + 1 ir %.3f" %y3)
